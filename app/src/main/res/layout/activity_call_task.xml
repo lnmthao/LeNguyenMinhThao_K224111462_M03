@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFDE7"
+    tools:context=".k224111462midterm.CallTaskActivity">
+
+    <TextView
+        android:id="@+id/tvCallTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Task to Call:"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#D32F2F"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <ListView
+        android:id="@+id/listViewCustomerCalls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

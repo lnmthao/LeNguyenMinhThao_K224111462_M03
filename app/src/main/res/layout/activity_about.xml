@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#ECEFF1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Student"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#37474F"
+            android:layout_marginBottom="24dp" />
+
+        <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/avatar"
+            android:contentDescription="Avatar"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerCrop"
+            android:elevation="4dp" />
+
+        <TextView
+            android:id="@+id/tvStudentId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student ID: K224111462"
+            android:textSize="18sp"
+            android:textColor="#263238"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvStudentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: Lê Nguyễn Minh Thảo"
+            android:textSize="18sp"
+            android:textColor="#263238"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: thaolnm22411c@st.uel.edu"
+            android:textSize="18sp"
+            android:textColor="#263238"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvClassName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class: K22411C"
+            android:textSize="18sp"
+            android:textColor="#263238"
+            android:layout_marginBottom="12dp" />
+
+    </LinearLayout>
+</ScrollView>

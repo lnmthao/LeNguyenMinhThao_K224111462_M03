@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LeNguyenMinhThao_K224111462_M03</string>
+
+    <string name="title_login">LOGIN</string>
+    <string name="title_login_description">Welcome back! Please login to continue</string>
+    <string name="title_login_button">Login</string>
+    <string name="title_edt_username">Username</string>
+    <string name="title_edt_password">Password</string>
+    <string name="title_exit_button">Exit</string>
+    <string name="title_employee">Employee</string>
+    <string name="title_admin">Admin</string>
+    <string name="title_list_task">List of Tasks</string>
+    <string name="title_create_task_button">Create a New Task</string>
+    <string name="title_create_task">Create a New Task</string>
+    <string name="title_task_title">Task Title</string>
+    <string name="title_select_customer">SELECT CUSTOMER</string>
+    <string name="button_create_task">CREATE TASK</string>
+</resources>
